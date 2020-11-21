@@ -1,11 +1,16 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
     <script src="../js/login.js"></script>
     <title>Login</title>
 </head>
@@ -16,7 +21,7 @@
 
         <form id="formComentario" data-toggle="validator">
 
-            
+
             <div id="emailtext" class="form-group pt-3">
                 <label>Endereço de E-mail</label>
                 <input id="email" type="email" class="form-control" placeholder="nome@exemplo.com" required>
@@ -24,16 +29,20 @@
 
             <div id="senhatext" class="form-group">
                 <label>Senha</label>
-                <input id="senha" name="senha" type="password" class="form-control" placeholder="Digite sua senha" required>
+                <input id="senha" name="senha" type="password" class="form-control" placeholder="Digite sua senha"
+                    required>
             </div>
+
+            <button id="b1" onclick="validform()" class="btn btn-dark btn-lg btn-block">Entrar</button>
+
 
         </form>
 
-        <button id="b1" onclick="validform()" class="btn btn-dark btn-lg btn-block">Entrar</button>
 
-        <a href="cadastro.html"><button onsubmit="" class="btn btn-secondary btn-lg btn-block">Ainda não tenho conta</button></a>
+        <a href="cadastro.html"><button onsubmit="" class="btn btn-secondary btn-lg btn-block">Ainda não tenho
+                conta</button></a>
 
-    
+
 </body>
 
 </html>
