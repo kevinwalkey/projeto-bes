@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
@@ -13,26 +13,27 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-
-h2{
-  font-family:helvetica;
+.content h1{
+  font-family: 'Playfair Display', serif;
 }
-
-
-
 .main{
-  background-color: rgb(241, 240, 240); 
+  background-color: white;
+  border: 2px solid black;
+ 
   width: 450px;
   height: 350px;
+  border-radius: 10px;
   padding:70px;
   padding-top:10px;
 }
 .content{
   padding-top:10px;
   padding-left:140px;
+  font-family: 'Montserrat Medium';
 }
+/*inpuuuut*/
 input[type=name] {
-  background-color:  rgb(241, 240, 240);
+  background-color: white;
   background-image: url('https://image.flaticon.com/icons/svg/2089/2089773.svg');
   background-position:5px 5px;
   background-size:9%;
@@ -41,7 +42,7 @@ input[type=name] {
 }
 input[type=text] {
 
-  background-color:  rgb(241, 240, 240);
+  background-color: white;
   background-image: url('https://image.flaticon.com/icons/svg/633/633611.svg');
   background-position:5px 5px;
   background-size:9%;
@@ -50,17 +51,18 @@ input[type=text] {
 }
 input[type=month] {
   width :66%;
-  background-color:  rgb(241, 240, 240);
+  background-color: white;
   background-image: url('https://image.flaticon.com/icons/svg/2693/2693507.svg');
   background-position:6px 5px;
   background-size:14%;
   background-repeat: no-repeat;
   padding-left: 40px;
   padding-bottom:13px;
+  font-family: 'Montserrat Medium';
 }
 input[type=user] {
   width :32.5%;
-  background-color:  rgb(241, 240, 240);
+  background-color: white;
   background-image: url('https://cdn1.iconfinder.com/data/icons/glyph-card-payment/32/credit_card_CVV_CVC_code_number-512.png');
   background-position:5px 5px;
   background-size:31%;
@@ -94,8 +96,9 @@ button{
   font-size: 16px;
   cursor:pointer;
 }
+/*credit card*/
 .card{
-  background-image: linear-gradient(to bottom,#0F9B8E, #0f7f9b  , #05619e , #03719C);
+  background-image: linear-gradient(to bottom,#0F9B8E, #03719C);
   position:fixed;
   right:70%;
   top:25%;
@@ -105,6 +108,7 @@ button{
   height:200px;
   box-shadow: 8px 10px 0px 1px #014b4370 ;
   border-radius: 10px;
+  font-family: 'Montserrat Thin';
   border: 2px solid#343837;
 }
 
@@ -113,6 +117,8 @@ button{
   font-style: italic;
   text-shadow:#343837 3px 0 1px;
   color:white;
+  /*visa font*/
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .num{
   color:white;
@@ -125,4 +131,4 @@ button{
   float:left;
   width:33%;
   text-align:center;
-} */
+}

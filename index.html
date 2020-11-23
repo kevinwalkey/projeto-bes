@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
@@ -10,8 +10,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" type="text/css" href="Css/style.css">
-    <title>Site</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="imagens/icon.png" type="image/png">
+    <title>Loja Nike</title>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <img src="imagens/slogan.png" width="300" alt="">
     </div>
     <nav class="navbar navbar-expand-lg py-3 navbar-light my-0 border-bottom border-secondary">
-        <a class="navbar-brand ml-2 " href="#">
+        <a class="navbar-brand ml-2 " href="index.html">
             <img src="imagens/nikepog2.png" width="370" height="" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
@@ -29,22 +30,22 @@
         <div class="collapse navbar-collapse" id="navmenu">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold " href="#">PRODUTOS</a>
+                    <a class="nav-link font-weight-bold " href="paginas/produtos.html">PRODUTOS</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle  font-weight-bold" href="#" data-toggle="dropdown"
                         id="navDrop">COMPRAS</a>
                     <div class="dropdown-menu ">
-                        <a class="dropdown-item text-muted" href="#">Calçados</a>
-                        <a class="dropdown-item text-muted" href="#">Camisas</a>
-                        <a class="dropdown-item text-muted" href="#">Calças</a>
-                        <a class="dropdown-item text-muted" href="#">Moletons</a>
-                        <a class="dropdown-item text-muted" href="#">Acessórios</a>
+                        <a class="dropdown-item text-muted" href="paginas/produtos.html">Calçados</a>
+                        <a class="dropdown-item text-muted" href="paginas/camisas.html">Camisas</a>
+                        <a class="dropdown-item text-muted" href="paginas/calcas.html">Calças</a>
+                        <a class="dropdown-item text-muted" href="paginas/moletons.html">Moletons</a>
+                        <a class="dropdown-item text-muted" href="paginas/acessorios.html">Acessórios</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold " href="#">SUPORTE</a>
+                    <a class="nav-link font-weight-bold " href="paginas/suporte.html">SUPORTE</a>
                 </li>
             </ul>
 
@@ -66,10 +67,10 @@
             </form>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link font-weight-bold" href="Paginas/login.html">ENTRAR</a>
+                    <a class="nav-link font-weight-bold" href="paginas/login.html">ENTRAR</a>
                 </li>
                 <li class="nav-item">
-                    <a a class="nav-link font-weight-bold" href="Paginas/carrinho.html">CARRINHO</a>
+                    <a a class="nav-link font-weight-bold" href="paginas/carrinho.html">CARRINHO</a>
                 </li>
             </ul>
         </div>
@@ -78,7 +79,7 @@
 
     <div class="text-center py-5 thumbnail-wrapper">
         <img src="imagens/NNNN.png" class="img-fluid" width="2300">
-        <button class="btn btn-lg btn-dark btn-black font-weight-bold ">CADASTAR</button>
+        <button class="btn btn-lg btn-dark btn-black font-weight-bold" onclick="location.href='paginas/cadastro.html'">CADASTAR</button>
     </div>
 
     <div>
@@ -104,7 +105,7 @@
                     <!--Card content-->
                     <div class="card-body">
 
-                        <a class="card-title h4 text-dark" href="#">Tênis Nike Downshifter 10</a>
+                        <p class="card-title h4 text-dark">Tênis Nike Downshifter 10</p>
                         <p class="card-text">Masculino</p>
                     </div>
 
@@ -126,7 +127,7 @@
                     <!--Card content-->
                     <div class="card-body">
 
-                        <a class="card-title h4 text-dark" href="#">Tênis Nike Reactive infinite</a>
+                        <p class="card-title h4 text-dark">Tênis Nike Reactive infinite</p>
                         <p class="card-text">Masculino</p>
 
                     </div>
@@ -144,7 +145,7 @@
                     </div>
 
                     <div class="card-body">
-                        <a class="card-title h4 text-dark" href="#">Tênis Nike Joyride Run Flyknit</a>
+                        <p class="card-title h4 text-dark" href="#">Tênis Nike Joyride Run Flyknit</p>
                         <p class="card-text">Masculino</p>
 
                     </div>
@@ -157,7 +158,7 @@
     </div>
 
     <div class="text-center">
-        <button class="btn btn-lg btn-dark btn-black font-weight-bold ">Ver Coleção</button>
+        <button class="btn btn-lg btn-dark btn-black font-weight-bold" onclick="location.href='paginas/produtos.html'">Ver Coleção</button>
     </div>
 
     <div>

@@ -6,7 +6,8 @@ $(document).ready(function(){
 
     dados = JSON.parse(banco.getItem("Carrinho"));
 
-    fLocalMostrarDados;
+    fLocalMostrarDados();
+    
 });
 
     function fLocalMostrarDados(){
