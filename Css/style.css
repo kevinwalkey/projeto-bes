@@ -21,6 +21,13 @@
   font-family: sans-serif;;
 }
 
+.btn{
+  background-color: black;
+  font-family: sans-serif;;
+  color: white;
+  border-radius: 5px;
+}
+
 .card{
     margin: 5% 0%;
     border: 0px !important;
@@ -141,4 +148,11 @@ section .section-title {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+
+
+#map{
+	width: 500px;
+	height: 500px;
+	background-color: #ddd;
 }
