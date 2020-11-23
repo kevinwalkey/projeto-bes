@@ -1,0 +1,301 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="../js/botoes.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" href="../imagens/icon.png" type="image/png">
+    <title>Calçados - Loja Nike</title>
+</head>
+
+<body>
+    <div class=" py-3 border-bottom border-secondary" align="center">
+        <img src="../imagens/slogan.png" width="300" alt="">
+    </div>
+    <nav class="navbar navbar-expand-lg py-3 navbar-light my-0 border-bottom border-secondary">
+        <a class="navbar-brand ml-2 " href="../index.html">
+            <img src="../imagens/nikepog2.png" width="370" height="" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold " href="produtos.html">PRODUTOS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  font-weight-bold" href="#" data-toggle="dropdown"
+                        id="navDrop">COMPRAS</a>
+                    <div class="dropdown-menu ">
+                        <a class="dropdown-item text-muted" href="produtos.html">Calçados</a>
+                        <a class="dropdown-item text-muted" href="camisas.html">Camisas</a>
+                        <a class="dropdown-item text-muted" href="calcas.html">Calças</a>
+                        <a class="dropdown-item text-muted" href="moletons.html">Moletons</a>
+                        <a class="dropdown-item text-muted" href="acessorios.html">Acessórios</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold " href="suporte.html">SUPORTE</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control text-muted" placeholder="Buscar">
+                    <button class=" btn btn-default searchbtn border mr-3" type="submit">
+                        <div class="input-group-btn">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="glyphicon glyphicon-search"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="../paginas/login.html">ENTRAR</a>
+                </li>
+                <li class="nav-item">
+                    <a a class="nav-link font-weight-bold" href="../paginas/carrinho.html">CARRINHO</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="card-deck">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/001.jpg" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="001">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Tênis Nike Air VaporMax Flyknit<p>
+                        <p class="card-text">R$ 809,99</p>
+                    </div>
+
+                </div>
+            
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/002.png" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="002">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Chinelo Nike Benassi </p>
+                        <p class="card-text">R$79,99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/003.jpg" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="003">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Tênis Nike Air Zoom Winflo 7 Masculino</p>
+                        <p class="card-text">389,99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/004.jpg" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="004">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Tênis Nike Air Zoom Pegasus 37 Masculino<p>
+                        <p class="card-text">R$ 459,99</p>
+                    </div>
+
+                </div>
+            
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/005.jpg" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="005">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Chuteira Nike Mercurial Vapor 13 Club Neymar Unissex</p>
+                        <p class="card-text">R$119,99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/006.png" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="006">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Chuteira Nike Beco 2 Unissex</p>
+                        <p class="card-text">119,99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/007.jpg" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="007">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Tênis Nike Air Max 2090 Masculino<p>
+                        <p class="card-text">R$ 489,99</p>
+                    </div>
+
+                </div>
+            
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/008.png" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark" id="008">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#">Chinelo Nike Offcourt Masculino</p>
+                        <p class="card-text">R$149,99</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <a href="#!">
+                            <img class="card-img-top" src="../imagens/produtos/009.jpg" alt="Card image cap">
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <button  type="button" class="btn btn-dark">Adicionar ao Carrinho</button>
+                        <p class="card-title h4 text-dark" href="#" id="009">Tênis Nike React Infinity Run Flyknit Masculino</p>
+                        <p class="card-text">R$519,99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small bottom border-top border-dark rounded">
+
+        <div class="container text-center text-md-left">
+            <div class="mt-5">
+                <div class="row ">
+                    <div class="col mt-3">
+                        <a class="text-uppercase text-secondary h3">Nike Corporation</a>
+                        <p class="text-secondary">Nike, Inc. é uma empresa estadunidense de calçados, roupas, e
+                            acessórios fundada em 1972 por Bill Bowerman e Phillip Knight. A sua sede fica em Beaverton,
+                            no estado de Oregon, nos Estados Unidos.</p>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mt-3 md-3">
+                        <a class="text-secondary h5">Duvidas</a>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a class="text-muted" href="#">Ver lojas</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Endereço</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Duvidas Gerais</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Entregas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mt-3 md-3">
+                        <a class="text-secondary h5">Sobre a Nike</a>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <a class="text-muted" href="#">Carreiras</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Feito pra jogar</a>
+                            </li>
+                            <li>
+                                <a class="text-muted" href="#">Move to zero</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="pt-3">
+                <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+                <div class="container">
+                    <div class="text-center center-block">
+                        <a href="https://www.facebook.com"><i id="social-fb"
+                                class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="https://twitter.com"><i id="social-tw"
+                                class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://plus.google.com"><i id="social-gp"
+                                class="fa fa-google-plus-square fa-3x social"></i></a>
+                        <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="footer-copyright text-center py-3">
+                <a class=" text-secondary">@ 2020 Copyright: LeoPog, Kevin</a>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>
